@@ -1,0 +1,29 @@
+.form__container {
+  position: relative;
+  width: 100vw;
+  height: 100vh; }
+  .form__container form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Merriweather Sans', sans-serif;
+    border: 2px solid rgba(0, 0, 0, 0.35);
+    padding: 30px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.2), 0 15px 12px rgba(0, 0, 0, 0.12);
+    text-align: center; }
+    .form__container form h1, .form__container form p {
+      margin-bottom: 20px; }
+    .form__container form h1 {
+      text-transform: uppercase;
+      font-family: 'Yeseva One', cursive; }
+    .form__container form button {
+      margin: 0 auto;
+      display: block;
+      padding: 5px 10px;
+      border: 1px solid black;
+      transition-duration: 0.25s; }
+      .form__container form button:hover {
+        text-shadow: 1px -3px 5px rgba(200, 200, 200, 0.4);
+        color: white;
+        box-shadow: -1px 3px 8px rgba(0, 0, 0, 0.4); }
