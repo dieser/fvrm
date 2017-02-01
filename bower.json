@@ -1,12 +1,12 @@
 {
-  "name": "vue-form",
+  "name": "fvrm",
   "version": "0.1.0",
-  "homepage": "https://github.com/dieser",
+  "homepage": "https://github.com/dieser/fvrm",
   "main": "dist/vue-form.js",
   "license": "MIT",
   "ignore": [
     "package.json",
-    "index.html",
+    "demo.html",
     "src"
   ],
   "dependencies": {
